@@ -1,2 +1,2 @@
-# Simple_Hospital_Management
-Managing, Appointment booking through hospital website 
+# Hospital_Management
+Website that displays specialties and features of hospital and get its services.

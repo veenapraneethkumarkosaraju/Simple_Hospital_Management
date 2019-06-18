@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Programs - HRS Hospital</title>
+	<link rel="shortcut icon" href="data:image/png;base64,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">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+	<div class="background">
+		<div class="page">
+			<a href="index.html" id="logo">HRS Hospital</a>
+			<div class="sidebar">
+				<ul>
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="about.html">About</a>
+					</li>
+					<li class="selected">
+						<a href="programs.html">Facilities</a>
+					</li>
+					<li>
+						<a href="services.html">Gallery</a>
+					</li>
+					<li>
+						<a href="blog.html">Appointment</a>
+					</li>
+					<li>
+						<a href="contact.html">Feedback</a>
+					</li>
+				</ul>
+				<div class="first">
+					<div>
+						<h3>Our 24/7 Pharmacy</h3>
+						
+						<img src="photos/pharmacy.jpg" width = 100% alt="">
+						
+						<p>
+							All the local and international medicines will be available 24/7
+						</p>
+					</div>
+				</div>
+				<div>
+					<div>
+						<h3>Laboratory Services</h3>
+						
+						<p>
+							We are equiped with specialized and advanced laboratory, which includes
+						</p>
+						<br>
+						<img src="photos/lab.jpg" width = 100% alt="">
+						<br>
+						<p>
+							1. Clinical Biochemistry<br>2. Heamatology<br>3. Clinical Pathology<br>4. Microbiology<br>5. Cytology<br>6. Serology<br>7. Histopathology
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="body">
+					<div class="about">
+						<div>
+							<div>
+								<div>
+									<h3 style="margin-top: -20px"><b>ICCU, AMCU Care Units</b></h3>
+										<img src="photos/ICCU.jfif" width = 100% alt="">
+									<br><br>
+									<p>
+											HRS Hospitals, Nandyal houses one of the busiest ICUS in the Nandyal. It comprises of 40 beds of which 19 cater to very sick patients who require multiorgan support, and 21 cater to parents with single organ dysfunction needing constant care and monitoring.
+<br><br>
+											The critical care department at HRS Hospitals Nandyal, under the guidance and leadership of Dr Sachin Chidrawar,treats patients from all specialities like Neurology, Gastroenterology, Pulmonology and Complex surgical cases. It consists of a High Dependency Unit (HDU), Neuro Intensive Care Unit (NICU), Medical Intensive Care Unit (MICU) and Intermediate Care Unit (IMCU). Five out of the total 40 beds are cubicles, with strict isolation conditions.
+	<br><br>										
+											We provide services including Hemodialysis, CRRT, IABP, Mechanical Ventilator Support including both IPPV AND NIV, invasive monitoring including FLOTRAC and IBP monitoring, and ECMO. The department ensures strict aseptic precautions to be followed to prevent the spreading of MDR AND PDR infections in the ICU.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+			</div>
+			<div class="body">
+				<div class="programs">
+						<div class="featured">
+								
+							
+							
+					
+						<div>
+							<div>
+								<h4>The facilities and specialities at HRS Hospitals include</h4>
+								<h3></h3>
+								<p>
+									We the Team HRS Hospitals offers many advanced treatments and therapys than any other hospital in all over Rayalaseema. Our doctors were awarded many times with the dest doctor awards. <b>We offer following therapys</b>
+								</p>
+								<ul>
+									<li>
+										<p>
+											Gastroenterology
+										</p>
+									</li>
+									<li>
+										<p>
+											ENT
+										</p>
+									</li>
+									<li>
+										<p>
+											Cardiology
+										</p>
+									</li>
+									<li>
+										<p>
+											Plumanology
+										</p>
+									</li>
+									<li>
+										<p>
+											Dermatology
+										</p>
+									</li>
+									<li>
+										<p>
+											Orthopaedics
+										</p>
+									</li>
+								</ul>
+							</div>
+						
+							<div class="section" style="margin-top: -50px">
+								<h4>Therapy</h4>
+								<ul>
+									<li>
+										<h3>Center for Gastroscopy</h3>
+										<p>
+												The Center for Gastroenterology offers advanced treatments for various gastro-intestinal disorders.
+										</p>
+									</li>
+									<li>
+										<h3>ENT</h3>
+										<p>
+												The Center for Ear Nose Throat has a team of surgeons whose credentials go beyond the ordinary.
+										</p>
+									</li>
+									<li>
+										<h3>Cardiology</h3>
+										<p>
+												We offer comprehensive, multi-disciplinary programmes for the prevention, diagnosis and treatment of Cardiological conditions
+										</p>
+									</li>
+									<li>
+										<h3>Plumanology</h3>
+										<p>
+												We offers comprehensive consultative, diagnostic and therapeutic services for different lung diseases. 
+										</p>
+									</li>
+									<li>
+											<h3>Dermatology</h3>
+											<p>
+													We offer treatments for various skin diseases and ailments such as Acne, Eczema, Psoriasis, Modern PUVA Therapy, scars and adopts surgery for warts.
+											</p>
+										</li>
+										<li>
+											<h3>Orthopaedics</h3>
+											<p>
+													We offers the most comprehensive health care systems and virtually all of the finest, latest treatments, technologies and services comparable to the best available.
+											</p>
+										</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+			<div class="footer">
+				<div>
+						<div>
+							<h4>Appointment</h4>
+							<p>
+								Make an appointment to meet your personal doctor.
+							</p>
+							<a href="blog.html">Appointment</a>
+						</div>
+						
+					<div>
+						<h4>Links</h4>
+						<ul>
+								<li>
+										<a href="index.html">Home</a>
+									</li>
+									<li>
+										<a href="about.html">About</a>
+									</li>
+									<li>
+											<a href="programs.html">Facilities</a>
+									</li>
+									<li>
+										<a href="services.html">Gallery</a>
+									</li>
+									<li>
+										<a href="blog.html">Appointment</a>
+									</li>
+									<li>
+										<a href="contact.html">Contact</a>
+									</li>
+						</ul>
+					</div>
+					<div class="connect">
+						<h4>Keep In Touch</h4>
+						<a href="http://freewebsitetemplates.com/go/twitter/" id="twitter">twitter</a> <a href="http://freewebsitetemplates.com/go/facebook/" id="facebook">facebook</a> <a href="http://freewebsitetemplates.com/go/googleplus/" id="googleplus">google+</a>
+					</div>
+				</div>
+				<p>
+					&#169; Copyright 2019. All rights reserved
+				</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
